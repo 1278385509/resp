@@ -28,4 +28,10 @@ public class TestController {
 
         return "helloWorld";
     }
+
+    @RequestMapping("/hello")
+    public Map<String, TestBusiness> hahh(){
+        Map<String, TestBusiness> stringTestBusinessMap = testBusinessHolder.get();
+        return stringTestBusinessMap;
+    }
 }
