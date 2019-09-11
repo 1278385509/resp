@@ -22,4 +22,10 @@ public class TestController {
 
         return "helloWorld";
     }
+
+    @RequestMapping("/yesj")
+    public String tesFile(){
+
+        return "helloWorld";
+    }
 }
