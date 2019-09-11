@@ -9,6 +9,8 @@ import java.util.Map;
 @RestController
 public class TestController {
 
+    private String name;
+
     @Autowired
     private TestBusinessHolder testBusinessHolder;
     @RequestMapping("/hello")
