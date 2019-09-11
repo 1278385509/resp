@@ -12,7 +12,7 @@ public class TestController {
     @Autowired
     private TestBusinessHolder testBusinessHolder;
     @RequestMapping("/hello")
-    public Map<String, TestBusiness> test(){
+    public Map<String, TestBusiness> tests(){
         Map<String, TestBusiness> stringTestBusinessMap = testBusinessHolder.get();
         return stringTestBusinessMap;
     }
