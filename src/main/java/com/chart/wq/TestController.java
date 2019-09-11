@@ -18,4 +18,22 @@ public class TestController {
         Map<String, TestBusiness> stringTestBusinessMap = testBusinessHolder.get();
         return stringTestBusinessMap;
     }
+
+    @RequestMapping("/yesj")
+    public String getNum(){
+
+        return "helloWorld";
+    }
+
+    @RequestMapping("/yesj")
+    public String tesFile(){
+
+        return "helloWorld";
+    }
+
+    @RequestMapping("/hello")
+    public Map<String, TestBusiness> hahh(){
+        Map<String, TestBusiness> stringTestBusinessMap = testBusinessHolder.get();
+        return stringTestBusinessMap;
+    }
 }
