@@ -16,4 +16,10 @@ public class TestController {
         Map<String, TestBusiness> stringTestBusinessMap = testBusinessHolder.get();
         return stringTestBusinessMap;
     }
+
+    @RequestMapping("/yesj")
+    public String getNum(){
+
+        return "helloWorld";
+    }
 }
